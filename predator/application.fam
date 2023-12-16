@@ -1,14 +1,13 @@
 App(
-    appid="predator",
-    name="Predator",
+    appid="sentinel",
+    name="Sentinel",
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="predator_app",
+    entry_point="sentinel_app",
     requires=[
         "gui",
         "storage",
         "dialogs",
         "input",
-        "nfc",
     ],
     stack_size=2 * 1024,
     order=20,
