@@ -1,0 +1,16 @@
+App(
+    appid="predator",
+    name="Predator",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="predator_app",
+    requires=[
+        "gui",
+        "storage",
+        "dialogs",
+        "input",
+        "nfc",
+    ],
+    stack_size=2 * 1024,
+    order=20,
+    fap_category="Elijah",
+)
